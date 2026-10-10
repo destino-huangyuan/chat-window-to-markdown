@@ -1,0 +1,208 @@
+{
+  "description": "完全虚构的导出层示例；文字、时间、页名和坐标均为人工构造，不来自真实截图或聊天。故意包含跨页重复、发送者疑点及异常时间。",
+  "profile": {
+    "target_name": "示例对象（完全虚构）",
+    "self_position": "right"
+  },
+  "records": [
+    {
+      "time": "2026-01-01 10:00",
+      "sender": "示例对象",
+      "side": "left",
+      "type": "text",
+      "content": "早上好，今天的会议资料准备好了吗？",
+      "page": 1,
+      "source_image": "page_001.png",
+      "bbox": [
+        140,
+        180,
+        540,
+        240
+      ]
+    },
+    {
+      "time": "2026-01-01 10:00",
+      "sender": "我",
+      "side": "right",
+      "type": "text",
+      "content": "已经准备好了。",
+      "page": 1,
+      "source_image": "page_001.png",
+      "bbox": [
+        650,
+        280,
+        1050,
+        340
+      ]
+    },
+    {
+      "time": "2026-01-01 10:02",
+      "sender": "我",
+      "side": "right",
+      "type": "text",
+      "content": "明天上午的项目讨论请带上新的资料和",
+      "page": 1,
+      "source_image": "page_001.png",
+      "bbox": [
+        650,
+        700,
+        1050,
+        760
+      ],
+      "bubble_complete": false
+    },
+    {
+      "time": "2026-01-01 10:02",
+      "sender": "我",
+      "side": "right",
+      "type": "text",
+      "content": "明天上午的项目讨论请带上新的资料和笔记本。",
+      "page": 2,
+      "source_image": "page_002.png",
+      "bbox": [
+        650,
+        140,
+        1050,
+        200
+      ],
+      "bubble_complete": true
+    },
+    {
+      "time": "2026-01-01 10:04",
+      "sender": "示例对象",
+      "side": "left",
+      "type": "image",
+      "content": "图片消息",
+      "page": 2,
+      "source_image": "page_002.png",
+      "bbox": [
+        140,
+        280,
+        540,
+        340
+      ]
+    },
+    {
+      "time": "2026-01-01 10:05",
+      "sender": "我",
+      "side": "right",
+      "type": "text",
+      "content": "收到图片，稍后确认。",
+      "page": 2,
+      "source_image": "page_002.png",
+      "bbox": [
+        650,
+        430,
+        1050,
+        490
+      ]
+    },
+    {
+      "time": "2026-01-01 10:06",
+      "sender": "我",
+      "side": "right",
+      "type": "text",
+      "content": "如果下午的会议还一直",
+      "page": 2,
+      "source_image": "page_002.png",
+      "bbox": [
+        650,
+        680,
+        1050,
+        740
+      ]
+    },
+    {
+      "time": "2026-01-01 10:06",
+      "sender": "示例对象",
+      "side": "left",
+      "type": "text",
+      "content": "在讨论议程，就先安排其他事项。",
+      "page": 3,
+      "source_image": "page_003.png",
+      "bbox": [
+        140,
+        140,
+        540,
+        200
+      ]
+    },
+    {
+      "time": "2026-01-01 00:03",
+      "sender": "我",
+      "side": "right",
+      "type": "text",
+      "content": "请再检查一下文件。",
+      "page": 3,
+      "source_image": "page_003.png",
+      "bbox": [
+        650,
+        280,
+        1050,
+        340
+      ],
+      "time_raw": "1月1日 00:03",
+      "time_source": "page_003.png"
+    },
+    {
+      "time": "2026-01-01 10:10",
+      "sender": "示例对象",
+      "side": "left",
+      "type": "sticker",
+      "content": "表情",
+      "page": 3,
+      "source_image": "page_003.png",
+      "bbox": [
+        140,
+        430,
+        540,
+        490
+      ]
+    },
+    {
+      "time": "2026-01-01 10:11",
+      "sender": "我",
+      "side": "right",
+      "type": "call",
+      "content": "通话时长 00:12",
+      "page": 3,
+      "source_image": "page_003.png",
+      "bbox": [
+        650,
+        560,
+        1050,
+        620
+      ]
+    },
+    {
+      "time": "2026-01-01 10:12",
+      "sender": "我",
+      "side": "right",
+      "type": "text",
+      "content": "确认完了，明天见。",
+      "page": 3,
+      "source_image": "page_003.png",
+      "bbox": [
+        650,
+        700,
+        1050,
+        760
+      ]
+    }
+  ],
+  "raw_pages": [
+    [
+      1,
+      "虚构示例第1页"
+    ],
+    [
+      2,
+      "虚构示例第2页"
+    ],
+    [
+      3,
+      "虚构示例第3页"
+    ]
+  ],
+  "stopped_reason": "虚构示例生成完成，非真实采集"
+}
